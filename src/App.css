@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+.navbarHeading {
+  font-family: cursive;
+  font-weight: 700;
+  font-size: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.NavbarText {
+  font-family: cursive;
+  font-weight: 700;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* SingUp Stylings */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card {
+  height: 70vh;
+  width: 70%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 5%;
+  border: 2px solid white;
+  border-radius: 2%;
+  text-align: center;
+  box-shadow: 10px 10px 10px grey;
 }
 
-.App-link {
-  color: #61dafb;
+.cardContent {
+  width: 40%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.h1card {
+  margin-top: 5%;
+  font-family: cursive;
+}
+
+.cardimg {
+  margin: 10%;
+}
+
+.cardIcon {
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+.cardtextfeild {
+  width: 70%;
+  margin-top: 5%;
+}
+
+.cardforget {
+  margin-top: 30px;
 }
